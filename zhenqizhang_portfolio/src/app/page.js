@@ -5,6 +5,7 @@ import InfoSection from "./components/Info";
 import ExperienceSection from "./components/WorkExperience";
 import ProjectSection from "./components/Project";
 import StatusSection from "./components/CurrentStat";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -19,7 +20,10 @@ export default function Home() {
         <InfoSection /> 
         <div className="w-full h-px bg-white my-8" />
         <ExperienceSection /> 
+        <div className="w-full h-px bg-white my-8" />
         <ProjectSection/>
+        <div className="w-full h-px bg-white my-8" />
+        <ContactSection/>
       </div>
     </main>
   )
