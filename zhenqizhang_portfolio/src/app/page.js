@@ -13,8 +13,11 @@ export default function Home() {
       <div className="container mt-24 mx-auto px-10 py-4">
         <IntroSection /> 
         <StatusSection/>
+        <div className="w-full h-px bg-white my-8" />
         <AboutSection /> 
+        <div className="w-full h-px bg-white my-8" />
         <InfoSection /> 
+        <div className="w-full h-px bg-white my-8" />
         <ExperienceSection /> 
         <ProjectSection/>
       </div>
