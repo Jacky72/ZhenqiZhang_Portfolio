@@ -7,7 +7,7 @@ import ProjectSection from "./components/Project";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-gradient-to-r from-[#7226ff] via-[#160078] via-80% to-[#010030]">
+    <main className="flex min-h-screen flex-col bg-gradient-to-r from-[#6b30ab] via-[#ac71f0] via-80% to-[#dabefa]" >  {/* via-[#160078] via-80% */}
       <Navbar />
       <div className="container mt-24 mx-auto px-10 py-4">
         <IntroSection /> 
