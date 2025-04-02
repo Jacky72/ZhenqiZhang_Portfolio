@@ -63,7 +63,7 @@ const AboutSection = () => {
                 <Image src={TAB_DATA.find((t) => t.id === tab).imgurl} width={500} height={500} alt="AboutSection image"/>  
                 <div>
                     <h2 className="text-4xl font-bold text-white mb-6 mt-5">About Me</h2>
-                    <p className="text-base lg:text-lg">
+                    <p className="text-white lg:text-lg">
                         I'm a Computer Science graduate specializing in Machine Learning, Full-Stack Development, Data Science and Software Development. With sufficient skill in Python, Java, Node.js, C, SQL, and system design.
                         My work includes using computer vision and reinforcement learning in robotics and drones (AICode Australia). I've done projects ranging from predictive ML models for BLEVE analysis to full-stack Web App like a Availability Enrolment using React, Express.js, and PostgreSQL.
                         I thrive in Agile teams, follow AWS best practices, and value iterative, feedback-driven development. As a mentor to 50+ students, I enjoy creating collaborative, inclusive learning environments. Fluent in English and Mandarin, I bring strong cross-cultural communication and leadership to every project.
@@ -83,7 +83,7 @@ const AboutSection = () => {
                             Language{" "}
                         </TabButton>
                     </div>
-                    <div className="mt-8 min-h-[150px]">
+                    <div className="mt-8 min-h-[150px] text-white">
                         {TAB_DATA.find((t) => t.id === tab).content}
                     </div>
                 </div>

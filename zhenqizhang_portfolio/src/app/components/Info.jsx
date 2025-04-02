@@ -10,7 +10,7 @@ const InfoSection = () => {
                 <div className="col-span-6 text-center sm:text-left mt-0"> 
                     <Image src="/image/Pic04.png" className="w-full h-auto object-cover" width={1000} height={1000} alt="AboutSection image"/>  
                     <h2 className="text-7xl font-extrabold text-white mb-6 mt-10 sm:mt-20 underline decoration-2 underline-offset-6">Coding</h2>
-                    <p className="text-base lg:text-lg mb-7 mt-10 sm:mt-15 lg:leading-8.5">
+                    <p className="text-white lg:text-lg mb-7 mt-10 sm:mt-15 lg:leading-8.5">
                         During University, I participated in multiple group assignments.
                         <br></br>
                         <br></br>
@@ -26,7 +26,7 @@ const InfoSection = () => {
                 <div className="col-span-1 hidden sm:block" />
                 <div className="col-span-5 place-self-center mb-6">
                     <Image src="/image/Pic05.png" className="w-auto h-full object-contain" width={1000} height={1000} alt="AboutSection image"/>  
-                    <p className="text-white text-base lg:text-lg mt-7 lg:leading-8.5">
+                    <p className="text-white lg:text-lg mt-7 lg:leading-8.5">
                         Lastly, In the Human Computer Interface course, I was exposed to the preparation work before developing software, including data collection (User persona, competitor analysis, use cases, etc.), data analysis, UI/UX development, usability testing, etc. 
                         I found that I really enjoyed this process and found fun in it, and brought this creativity into my design.
                     </p>
@@ -39,7 +39,7 @@ const InfoSection = () => {
                 <div className="col-span-6 text-center sm:text-left mt-0"> 
                     <Image src="/image/Pic06.jpg" className="w-full h-auto object-cover" width={1000} height={1000} alt="AboutSection image"/>  
                     <h2 className="text-7xl font-extrabold text-white mb-6 mt-10 sm:mt-20 underline decoration-2 underline-offset-6 break-words">Photographer</h2>
-                    <p className="text-base lg:text-lg mb-7 mt-10 sm:mt-15 lg:leading-8.5">
+                    <p className="text-white lg:text-lg mb-7 mt-10 sm:mt-15 lg:leading-8.5">
                         Whenever I travel, I always bring a camera with me. I think that although the most beautiful scenery is what we see with our eyes, photos make us remember the journey we have taken.
                         <br></br>
                         <br></br>
@@ -82,7 +82,7 @@ const InfoSection = () => {
                 <div className="col-span-6 text-center sm:text-left mt-0"> 
                     <Image src="/image/Travel01.jpg" className="w-full h-auto object-cover" width={1000} height={1000} alt="AboutSection image"/>  
                     <h2 className="text-7xl font-extrabold text-white mb-6 mt-10 sm:mt-20 underline decoration-2 underline-offset-6 break-words">Travel Enthusiast</h2>
-                    <p className="text-base lg:text-lg mb-7 mt-10 sm:mt-15 lg:leading-8.5">
+                    <p className="text-white lg:text-lg mb-7 mt-10 sm:mt-15 lg:leading-8.5">
                         While you are still young, the world is at your feet, and your steps never stop!
                         <br></br>
                         <br></br>

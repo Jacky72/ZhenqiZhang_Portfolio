@@ -30,7 +30,7 @@ const IntroSection = () => {
                         </span>
                     </h1>
                     {/* The most common text colors are: #323232 #646464 #999999, but the color would be too dark if I use any of these */}
-                    <p className=" text-white text-base sm:text-lg mb-7 lg:text-xl lg:leading-8.5">
+                    <p className=" text-white sm:text-lg mb-7 lg:text-xl lg:leading-8.5">
                         I am a graduate who aspires to become a software engineer or computer scientist. 
                         <br></br>
                         I am keen to learn and grow into a mature full-stack engineer, software engineer or data analyst.
