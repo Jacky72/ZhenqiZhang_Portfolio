@@ -61,7 +61,7 @@ const ContactSection = () => {
                         }}
                     />
                     <a
-                        href="www.linkedin.com/in/zhenqi-zhang-680897283"
+                        href="https://www.linkedin.com/in/zhenqi-zhang-680897283"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center w-15 h-15 bg-white text-black rounded-full hover:bg-purple-300 transition duration-300"
