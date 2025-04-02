@@ -40,7 +40,7 @@ const IntroSection = () => {
                 </div>
                 {/* 4 Col for the Profile Image */}
                 <div className="col-span-4 place-self-center mt-6 lg:mt-0">
-                    <div className="rounded-full bg-[#a48ed2] w-[250px] h-[250px] lg:w-[310px] lg:h-[310px] sm:w-[200px] sm:h-[200px] relative"> {/* Container and also background of the Profile Image */}
+                    <div className="rounded-full bg-white w-[250px] h-[250px] lg:w-[310px] lg:h-[310px] sm:w-[200px] sm:h-[200px] relative"> {/* Container and also background of the Profile Image */}
                         <Image src="/image/pfp.jpg" alt="pfp" className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" width={305} height={305}/> {/* Profile Image (Making it rounded and in the center of the background container */}
                     </div>
                 </div>

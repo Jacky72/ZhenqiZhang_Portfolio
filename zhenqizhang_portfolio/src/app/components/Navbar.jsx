@@ -48,7 +48,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="fixed mx-auto border border-white top-0 left-0 right-0 z-10 bg-[#647cb8] bg-opacity-100 min-h-60px max-h-65px"> {/* Common NavBar Height = 60 to 100px bg-[#96affc]*/}
+        <nav className="fixed mx-auto border border-white top-0 left-0 right-0 z-10 bg-[#323232] bg-opacity-100 min-h-60px max-h-65px"> {/* Common NavBar Height = 60 to 100px bg-[#96affc]*/}
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                 <Link href={"/"} className="text-2xl md:text-5xl text-white font-semibold"> My Portfolio</Link>
                 <div className="mobile-menu block md:hidden">  {/* Hide the NavBar for small screens */}
@@ -61,7 +61,7 @@ const Navbar = () => {
                 }
                 </div>
                 <div className="menu hidden md:block md:w-auto" id="navbar">
-                    <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
+                    <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 font-bold">
                         {
                             navLinks.map((link, index) => (
                                 <li key={index}>

@@ -74,106 +74,16 @@ const ContactSection = () => {
                     />
                 </div>
                 <div>
-                <form className="flex flex-col gap-6 w-full max-w-xl mx-auto" onSubmit={handleSubmit}>
-                    <TextField
-                        label="Your email"
-                        name="email"
-                        type="email"
-                        required
-                        placeholder="Enter your email"
-                        variant="outlined"
-                        fullWidth
-                        sx={{
-                            '& .MuiOutlinedInput-root': {
-                                '& fieldset': {
-                                    borderColor: '#FFFFFF ', 
-                                },
-                                '&:hover fieldset': {
-                                    borderColor: '#FFFFFF ', 
-                                },
-                                '&.Mui-focused fieldset': {
-                                    borderColor: '#FFFFFF ', 
-                                },
-                            },
-                            '& .MuiInputBase-input': {
-                                color: '#FFFFFF', 
-                                backgroundColor: 'transparent !important',
-                            },
-                            '& .MuiFormLabel-root.Mui-focused': {
-                                color: '#FFFFFF', 
-                            },
-                        }}
-                    />
-
-                    <TextField
-                        label="Subject"
-                        name="subject"
-                        type="text"
-                        required
-                        placeholder="Enter Anything"
-                        variant="outlined"
-                        fullWidth
-                        sx={{
-                            '& .MuiOutlinedInput-root': {
-                                '& fieldset': {
-                                    borderColor: '#FFFFFF ', 
-                                },
-                                '&:hover fieldset': {
-                                    borderColor: '#FFFFFF ', 
-                                },
-                                '&.Mui-focused fieldset': {
-                                    borderColor: '#FFFFFF ', 
-                                },
-                            },
-                            '& .MuiInputBase-input': {
-                                color: '#FFFFFF', 
-                                backgroundColor: 'transparent !important',
-                            },
-                            '& .MuiFormLabel-root.Mui-focused': {
-                                color: '#FFFFFF', 
-                            },
-                        }}
-                    />
-
-                    <TextField
-                        label="Message"
-                        name="message"
-                        multiline
-                        rows={4}
-                        placeholder="Leave your message here"
-                        variant="outlined"
-                        fullWidth
-                        sx={{
-                            '& .MuiOutlinedInput-root': {
-                                '& fieldset': {
-                                    borderColor: '#FFFFFF ', 
-                                },
-                                '&:hover fieldset': {
-                                    borderColor: '#FFFFFF ', 
-                                },
-                                '&.Mui-focused fieldset': {
-                                    borderColor: '#FFFFFF ', 
-                                },
-                            },
-                            '& .MuiInputBase-input': {
-                                color: '#FFFFFF', 
-                                backgroundColor: 'transparent !important',
-                            },
-                            '& .MuiFormLabel-root.Mui-focused': {
-                                color: '#FFFFFF', 
-                            },
-                        }}
-                    />
-
-                    <Button
-                        type="submit"
-                        variant="contained"
-                        color="primary"
-                        fullWidth
-                    >
-                        Send Message
-                    </Button>
-                </form>
+                <h1 className="text-white mb-10 text-xl lg:leading-normal font-extrabold">Wants to Contact me in an easier way?</h1>
+                <p className="text-base max-w-md mb-10 text-center font-semibold">
+                        Email: &nbsp; zhenqizhang02@gmail.com
+                        <br></br>
+                        <br></br>
+                        Or
+                        <br></br>
+                        <br></br>
+                        Discord: &nbsp; Beii &nbsp; (Tag: _beii)
+                    </p>
                 </div>
             </div>
         </section>
