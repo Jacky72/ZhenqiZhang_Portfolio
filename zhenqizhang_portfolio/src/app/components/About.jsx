@@ -23,7 +23,7 @@ const TAB_DATA = [
     {
       title: "Education",
       id: "education",
-      imgurl: "/image/Pic02.JPG", 
+      imgurl: "/image/Pic02.jpg", 
       content: (
         <ul className="list-disc pl-2">
             <li className="list-none mb-4"> University: Curtin University </li>
@@ -35,7 +35,7 @@ const TAB_DATA = [
     {
         title: "Language",
         id: "language",
-        imgurl: "/image/Pic03.JPG", 
+        imgurl: "/image/Pic03.jpg", 
         content: (
           <ul className="list-disc pl-2">
             <li className="list-none mb-4">English - Fluent</li>
