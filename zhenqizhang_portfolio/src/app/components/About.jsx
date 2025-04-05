@@ -65,8 +65,8 @@ const AboutSection = () => {
                     <h2 className="text-4xl font-bold text-white mb-6 mt-5">About Me</h2>
                     <p className="text-white lg:text-lg">
                         I'm a Computer Science graduate specializing in Machine Learning, Full-Stack Development, Data Science and Software Development. With sufficient skill in Python, Java, Node.js, C, SQL, and system design.
-                        My work includes using computer vision and reinforcement learning in robotics and drones (AICode Australia). I've done projects ranging from predictive ML models for BLEVE analysis to full-stack Web App like a Availability Enrolment using React, Express.js, and PostgreSQL.
-                        I thrive in Agile teams, follow AWS best practices, and value iterative, feedback-driven development. As a mentor to 50+ students, I enjoy creating collaborative, inclusive learning environments. Fluent in English and Mandarin, I bring strong cross-cultural communication and leadership to every project.
+                        My pervious work experience includes using computer vision and reinforcement learning in robotics and drones (AICode Australia). I've done projects ranging from predictive ML models for BLEVE analysis to full-stack Web App like a Availability Enrolment using React, Express.js, and PostgreSQL.
+                        I thrive in Agile teams and value iterative, feedback-driven development. As a mentor to 100+ students, I enjoy creating collaborative, inclusive learning environments. Fluent in English and Mandarin, I bring strong cross-cultural communication and leadership to every project.
                         I&apos;m passionate about building impactful, team-driven solutions while mentoring the next generation of developers.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
