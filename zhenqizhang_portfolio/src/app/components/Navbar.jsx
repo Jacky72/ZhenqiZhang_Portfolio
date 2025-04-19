@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import NavLink from './NavLink'
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { useMotionValueEvent, useScroll } from "framer-motion";
 import OpenMenu from "./OpenMenu"
 
 const navLinks = [
@@ -31,6 +32,19 @@ const navLinks = [
 const Navbar = () => {
 
     const [navbarOpen, setNavbarOpen] = useState(false);
+    const [showNavbar, setShowNavBar] = useState(true)
+    const [prevScrollY, setPrevScrollY] = useState(0)
+    const { scrollY } = useScroll()
+    const [scrolled, setScrolled] = useState(false)
+
+    useMotionValueEvent(scrollY, "change", (latest) => {
+        if (latest > prevScrollY && latest > 35){
+            setShowNavBar(false)
+        } else {
+            setShowNavBar(true)
+        }
+        setPrevScrollY(latest);
+    })
 
     {/* This useEffect is to make sure that the Navbar is closed when we enlarge the webpage from small width to wide width */}
     useEffect(() => {
@@ -48,15 +62,15 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="fixed mx-auto border border-white top-0 left-0 right-0 z-10 bg-[#323232] bg-opacity-100 min-h-60px max-h-65px"> {/* Common NavBar Height = 60 to 100px bg-[#96affc]*/}
+        <nav className={`fixed mx-auto border border-white top-0 left-0 right-0 z-10 bg-gradient-to-r from-[#3a2e67] via-[#638196] via-85% to-[#ceffd1] bg-opacity-100 min-h-60px max-h-65px transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}> {/* Common NavBar Height = 60 to 100px bg-[#96affc]*/}
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-                <Link href={"/"} className="text-2xl md:text-5xl text-white font-semibold"> My Portfolio</Link>
+                <Link href={"/"} className="text-2xl md:text-5xl text-blacks font-semibold"> My Portfolio</Link>
                 <div className="mobile-menu block md:hidden">  {/* Hide the NavBar for small screens */}
                 {
                     !navbarOpen ? (
-                    <button onClick={() => setNavbarOpen(true)} className="flex item-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"><Bars3Icon className="h-5 w-5"/></button>
+                    <button onClick={() => setNavbarOpen(true)} className="flex item-center px-3 py-2 border-2 rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"><Bars3Icon className="h-5 w-5"/></button>
                     ) : (
-                    <button onClick={() => setNavbarOpen(false)} className="flex item-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"><XMarkIcon className="h-5 w-5"/></button>
+                    <button onClick={() => setNavbarOpen(false)} className="flex item-center px-3 py-2 border-2 rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"><XMarkIcon className="h-5 w-5"/></button>
                     )
                 }
                 </div>

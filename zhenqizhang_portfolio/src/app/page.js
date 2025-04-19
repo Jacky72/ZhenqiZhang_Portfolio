@@ -9,7 +9,7 @@ import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#323232]" > 
+    <main className="flex min-h-screen flex-col bg-gradient-to-b from-[#3a2e67] via-[#638196] to-[#ceffd1]" > 
       <Navbar />
       <div className="container mt-24 mx-auto px-10 py-4">
         <IntroSection /> 

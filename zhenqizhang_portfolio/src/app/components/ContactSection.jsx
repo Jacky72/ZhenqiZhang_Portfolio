@@ -39,10 +39,10 @@ const ContactSection = () => {
 
     return (
         <section id="contact">
-            <div className="md:grid md:grid-cols-2 gap-5 items-center py-8 px-4 xl:gap-40 sm:py-16 xl:px-0">
+            <div className="md:grid md:grid-cols-2 gap-5 items-center py-5 px-4 xl:gap-40 sm:py-16 xl:px-0">
                 <div>
-                    <h1 className="text-white mb-10 text-xl lg:leading-normal font-extrabold">Leave me an message!</h1>
-                    <p className="text-white max-w-md mb-10">
+                    <h1 className="text-black mb-10 text-xl lg:leading-normal font-extrabold">Leave me an message!</h1>
+                    <p className="text-black max-w-md mb-10">
                         I&apos;m currently looking for any new opportunities, whether it is Graduate Program or Formal Job. If you have anything you want to know, please leave me a message and I will get back to you ASAP.
                         <br></br>
                         <br></br>
@@ -74,8 +74,8 @@ const ContactSection = () => {
                     />
                 </div>
                 <div>
-                <h1 className="text-white mb-10 text-xl lg:leading-normal font-extrabold">Wants to Contact me in an easier way?</h1>
-                <p className="text-white max-w-md mb-10 text-center font-semibold">
+                <h1 className="text-black mb-10 text-xl lg:leading-normal font-extrabold">Wants to Contact me in an easier way?</h1>
+                <p className="text-black max-w-md mb-10 text-center font-semibold">
                         Email: &nbsp; zhenqizhang02@gmail.com
                         <br></br>
                         <br></br>
