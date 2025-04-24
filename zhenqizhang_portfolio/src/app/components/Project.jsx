@@ -20,6 +20,14 @@ const projectsData = [
         image: "/image/Pro01.png",
         tag: ["All", "Web"],
         previewUrl: "https://github.com/Jacky72/AvailabilityEnrolmentTracker",
+    },
+    {
+        id:3,
+        title: "Photo Gallery",
+        description: "Web Development Project to short my Picture and Videos",
+        image: "/image/Pro02.png",
+        tag: ["All", "Web"],
+        previewUrl: "https://github.com/Jacky72/ZhenqiZhang_PhotoGallery",
     }
 ]
 
