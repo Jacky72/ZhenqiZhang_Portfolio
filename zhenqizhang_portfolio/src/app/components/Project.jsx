@@ -25,7 +25,7 @@ const projectsData = [
         id:3,
         title: "Photo Gallery",
         description: "Web Development Project to short my Picture and Videos",
-        image: "/image/Pro02.png",
+        image: "/image/Pro02.jpg",
         tag: ["All", "Web"],
         previewUrl: "https://github.com/Jacky72/ZhenqiZhang_PhotoGallery",
     }
