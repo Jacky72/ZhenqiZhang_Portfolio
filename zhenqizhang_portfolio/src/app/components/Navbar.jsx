@@ -64,7 +64,7 @@ const Navbar = () => {
     return (
         <nav className={`fixed mx-auto border border-white top-0 left-0 right-0 z-10 bg-gradient-to-r from-[#3a2e67] via-[#638196] via-85% to-[#ceffd1] bg-opacity-100 min-h-60px max-h-65px transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}> {/* Common NavBar Height = 60 to 100px bg-[#96affc]*/}
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-                <Link href={"/"} className="text-2xl md:text-5xl text-blacks font-semibold"> My Portfolio</Link>
+                <Link href={"/"} className="text-2xl md:text-5xl text-blacks font-semibold text-blue-300"> My Portfolio</Link>
                 <div className="mobile-menu block md:hidden">  {/* Hide the NavBar for small screens */}
                 {
                     !navbarOpen ? (
